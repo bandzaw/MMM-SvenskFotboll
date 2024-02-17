@@ -1,0 +1,23 @@
+.MMM-SvenskFotboll table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.MMM-SvenskFotboll td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.MMM-SvenskFotboll tr.current-day {
+    background-color: #454545;
+}
+
+.MMM-SvenskFotboll tr.current-day td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.MMM-SvenskFotboll td.weekday {
+    vertical-align: top;
+    font-weight: bold;
+}
